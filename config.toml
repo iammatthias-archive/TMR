@@ -1,0 +1,118 @@
+# Site settings
+baseurl = "http://themediaroom.la"
+languageCode = "en-us"
+title = "The Media Room"
+layoutdir= "layouts"
+publishdir= "public"
+keywords= "media,theater,county,services,orange,finest,dedicated,system,installations"
+
+
+[params]
+
+	name = "The Media Room"
+	description = "The Media Room"
+
+
+		# - set your email address under 'email' below
+
+	email = "sales@themediaroom.la"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "The Media Room"
+
+
+
+	# Hero section
+	[params.hero]
+		# To change the background image of the hero, replace 'header-bg.jpg' in
+		# the 'static/img' folder.
+		title = "The Media Room"
+		subtitle = "Premium Home Theater & Automation"
+
+
+	# Creative Process 1 section
+	[params.creative1]
+		title = "Creative Process"
+
+
+	# Creative Process 2 section
+	[params.creative2]
+
+
+
+    # About section
+	[params.about]
+		title = "About"
+		subtitle = "Exceeding your Expectations"
+
+
+
+	# Brands section
+	[params.brands]
+		title = "Brands"
+		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+
+
+	# Services - Home Theater section
+	[params.services-ht]
+		title = "Services - Home Theater"
+		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+
+
+	# Services - Full Home section
+	[params.services-fh]
+		title = "Services - Full Home"
+		subtitle  = "Lorem ipsum dolor sit amet consectetur."
+
+
+		# Contact section
+		[params.contact]
+			title = "Contact"
+			subtitle  = ""
+			buttonText = "Submit"
+
+			# 'warning' defines error messages for invalid inputs
+			[params.contact.form.name]
+				text = "Your Name"
+				warning = "Please enter your name."
+
+			[params.contact.form.email]
+				text = "Your Email"
+				warning = "Please enter your email address."
+
+			[params.contact.form.phone]
+				text = "Your Phone"
+				warning = "Please enter your phone number."
+
+			[params.contact.form.message]
+				text = "Your Message"
+				warning = "Please enter a message."
+
+
+	# Footer section
+	[params.footer]
+		copyright = "Published under the Apache License 2.0."
+
+		[[params.footer.social]]
+			icon = "fa-twitter"
+			link = "#"
+
+		[[params.footer.social]]
+			icon = "fa-facebook"
+			link = "#"
+
+		[[params.footer.social]]
+			icon = "fa-linkedin"
+			link = "#"
+
+		[[params.footer.quicklinks]]
+			text = "Privacy Policy"
+			link = "#"
+
+		[[params.footer.quicklinks]]
+			text = "Terms of Use"
+			link = "#"
